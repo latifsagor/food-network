@@ -171,3 +171,34 @@ p{
 .subscribe p{
     margin: 0;
 }
+
+/*---------------------*/
+/* SUBSCRIBE SECTION END */
+/*---------------------*/
+
+/*---------------------*/
+/* FOOTER SECTION START */
+/*---------------------*/
+
+footer{
+    background-color: black;
+    padding: 25px 0;
+}
+
+footer div{
+    text-align: center;
+}
+
+footer div h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.food{
+    color: tomato;
+}
+
+footer div p{
+    margin: 0;
+    color: #fff;
+}
