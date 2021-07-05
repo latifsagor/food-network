@@ -27,6 +27,7 @@ h1, h2, h3{
 h1{
     font-size: 50px;
     line-height: 130%;
+    margin-bottom: 10px;
 }
 
 h2{
@@ -37,11 +38,36 @@ h3{
     font-size: 31px;
 }
 
+p{
+    margin-bottom: 50px;
+}
+
+/*---------------------*/
+/* REUSEBLE COMPONENT */
+/*---------------------*/
+
+.half-width a{
+    text-decoration: none;
+    padding: 20px 35px;
+    background-image: linear-gradient( 45deg, #77f, #0000ff);
+    color: #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
 /*---------------------*/
 /* SECTION HERO */
 /*---------------------*/
-.section-hero{
+.flexible-container{
     display: flex;
+}
+
+.half-width:first-child{
+    margin-top: 95px;
+}
+
+.half-width:last-child{
+    margin-top: 20px;
 }
 
 .half-width{
@@ -50,9 +76,13 @@ h3{
 }
 
 .half-width span{
-    color: #3c33e4;
+    color: #77f;
 }
 
 .half-width img{
     width: 80%;
 }
+
+/*---------------------*/
+/* SECTION HERO END */
+/*---------------------*/
