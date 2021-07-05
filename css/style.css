@@ -89,12 +89,13 @@ p{
 }
 
 /*---------------------*/
-/* SECTION HERO END */
+/* ABOUT ME SECTION START */
 /*---------------------*/
 
 .section-about{
     background: url(../img/Frame\ 56.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .about img{
@@ -109,4 +110,36 @@ p{
 
 .about:last-child{
     margin-top: 13%;
+}
+
+/*---------------------*/
+/* ABOUT ME SECTION END */
+/*---------------------*/
+
+/*---------------------*/
+/* RECIPIES SECTION START */
+/*---------------------*/
+
+.section-recipies{
+    padding: 25px 5%;
+}
+.recipies h2{
+    text-align: center;
+}
+
+.recipies p{
+    text-align: center;
+    padding: 0 25%;
+}
+
+.food-menu{
+    width: 27%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 10px;
+    box-shadow: 10px 10px 30px rgba(128, 128, 128, 0.678)
+}
+
+.food-menu img{
+    width: 100%;
 }
