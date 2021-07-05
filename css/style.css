@@ -53,6 +53,11 @@ p{
     color: #fff;
     border-radius: 50px;
     text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.half-width a:hover{
+    color: tomato;
 }
 
 /*---------------------*/
