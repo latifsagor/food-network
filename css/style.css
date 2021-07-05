@@ -136,10 +136,38 @@ p{
     width: 27%;
     margin-right: 3%;
     margin-left: 3%;
-    padding: 10px;
-    box-shadow: 10px 10px 30px rgba(128, 128, 128, 0.678)
+    padding: 15px;
+    box-shadow: 10px 10px 30px #b3b3b3;
+    border-radius: 15px;
 }
 
 .food-menu img{
     width: 100%;
+}
+
+/*---------------------*/
+/* RECIPIES SECTION END */
+/*---------------------*/
+
+/*---------------------*/
+/* SUBSCRIBE SECTION START */
+/*---------------------*/
+
+.section-subscribe{
+    padding: 100px 8%;
+}
+
+.subscribe-row{
+    border-radius: 15px;
+    box-shadow: 10px 5px 25px #b3b3b3;
+}
+
+.subscribe{
+    width: 33%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.subscribe p{
+    margin: 0;
 }
